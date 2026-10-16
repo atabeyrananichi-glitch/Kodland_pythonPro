@@ -1,0 +1,5 @@
+import random
+Allow character = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+Pass_leg=int(input(“Longitud de la contraseña”)
+Password= random.choices(Allow character, k=Pass_leg))
+print(“Contraseña: “ + Password)
